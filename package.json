@@ -90,11 +90,6 @@
       "<rootDir>/lib/"
     ]
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "release-it": {
     "git": {
       "commitMessage": "chore: release ${version}",
@@ -155,5 +150,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-advertising-id": "^1.0.11"
   }
 }
